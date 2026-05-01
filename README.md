@@ -1,1 +1,1 @@
-# Forecasting-Application
+Quant Dashboard is a quantitative stock analysis application developed in MATLAB App Designer. It allows users to download market data, analyze return dynamics, test stationarity, select ARIMA and GARCH models, evaluate residual diagnostics, and assess market risk through volatility forecasting, Value at Risk (VaR), Expected Shortfall (ES), and tail-risk analysis. The app also provides graphical outputs and automatic comments to support the interpretation of statistical and risk results in a clear and user-friendly way.

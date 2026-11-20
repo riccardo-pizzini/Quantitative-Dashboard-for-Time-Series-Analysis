@@ -11,10 +11,8 @@ The app allows users to download historical market data, analyze asset returns, 
 [**⬇ Download QUANT DASHBOARD (.mltbx)**](./QUANT_DASHBOARD.mltbx?raw=true)
 
 1. Download the `QUANT_DASHBOARD.mltbx` file using the link above.
-2. Open MATLAB.
-3. Locate the downloaded file in the MATLAB Files panel.
-4. Double-click the file and follow the installation instructions.
-5. Launch QUANT DASHBOARD from the Apps tab in MATLAB.
+2. Double-click the file and follow the installation instructions.
+3. Launch QUANT DASHBOARD from the Apps tab in MATLAB.
 
 Make sure all the requirements listed above are satisfied
 before running the application.

@@ -6,6 +6,21 @@ The app allows users to download historical market data, analyze asset returns, 
 
 ---
 
+## Download and Installation
+
+[**⬇ Download QUANT DASHBOARD (.mltbx)**](./QUANT_DASHBOARD.mltbx?raw=true)
+
+1. Download the `QUANT_DASHBOARD.mltbx` file using the link above.
+2. Open MATLAB.
+3. Locate the downloaded file in the MATLAB Files panel.
+4. Double-click the file and follow the installation instructions.
+5. Launch QUANT DASHBOARD from the Apps tab in MATLAB.
+
+Make sure all the requirements listed above are satisfied
+before running the application.
+
+---
+
 ## Overview
 
 Quant Dashboard provides an intuitive interface for quantitative financial analysis.
@@ -52,7 +67,7 @@ The goal of the application is to make quantitative finance tools easier to use,
 
 - Automatic ARIMA order selection
 - Residual analysis
-- Diagnostic plots for model validation
+- Residual diagnostic plots for model assessment
 - Evaluation of autocorrelation in residuals
 
 ### GARCH Volatility Modelling
@@ -65,8 +80,8 @@ The goal of the application is to make quantitative finance tools easier to use,
 
 ### Risk Forecasting
 
-- Value at Risk estimation
-- VaR backtesting
+- Value at Risk and Expected Shortfall estimation
+- Rolling-window historical VaR backtesting
 - Violation count analysis
 - Comparison between observed and expected violation rates
 - Risk interpretation based on the selected confidence level
@@ -151,27 +166,18 @@ Quant Dashboard can be used to:
 To run the application, you need:
 
 - MATLAB
-- MATLAB App Designer
 - Econometrics Toolbox
 - Statistics and Machine Learning Toolbox
+- R
+- R packages: `quantmod` and `jsonlite`
+- An active internet connection to retrieve Yahoo Finance data
 
-Depending on the data download method used in the app, an external script or connection to a financial data source may also be required.
+The required R packages can be installed by running
+the following command in R:
 
----
-
-## Installation
-
-Clone the repository:
-
-```bash
-https://github.com/riccardo-pizzini/Quantitative-Dashboard-for-Time-Series-Analysis
+```r
+install.packages(c("quantmod", "jsonlite"))
 ```
-
-Open the project in MATLAB and run the `.mlapp` file:
-
-
-Then click **Run** inside MATLAB App Designer.
-
 ---
 
 ## Usage
